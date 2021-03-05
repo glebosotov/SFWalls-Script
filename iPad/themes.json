@@ -8,7 +8,7 @@
     "colorAngle": 60,
     "themeName": "marine (7)",
     "colors": 6,
-    "columns": [2, 2, 2, 2, 2, 2],
+    "columns": [3, 3, 3, 3, 3, 3],
     "symbolProportion": [1, 1, 1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0],
     "colorProportion": [1, 1, 1, 1, 1, 1]
@@ -22,10 +22,10 @@
     "colorAngle": 69,
     "themeName": "greens (5)",
     "colors": 3,
-    "columns": [3, 6, 3],
-    "symbolProportion": [1, 2, 1],
+    "columns": [5, 8, 5],
+    "symbolProportion": [1, 3, 1],
     "iconLimits": [0, 0, 0],
-    "colorProportion": [1, 2, 1]
+    "colorProportion": [1, 3, 1]
   },
   "Vaporwave": {
     "symbolColorAngle": 5,
@@ -36,7 +36,7 @@
     "colorAngle": 5,
     "themeName": "pink to blue (10)",
     "colors": 7,
-    "columns": [2, 2, 2, 2, 2, 2, 2],
+    "columns": [3, 3, 3, 3, 3, 3, 3],
     "symbolProportion": [1, 1, 1, 1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
     "colorProportion": [1, 1, 1, 1, 1, 1, 1]
@@ -57,9 +57,9 @@
     "themeName": "funky future (8)",
     "colors": 5,
     "columns": [5, 3, 5, 3, 5],
-    "symbolProportion": [2, 1, 2, 1, 2],
+    "symbolProportion": [3, 1, 3, 1, 3],
     "iconLimits": [0, 0, 0, 0, 0],
-    "colorProportion": [2, 1, 2, 1, 2]
+    "colorProportion": [3, 1, 3, 1, 3]
   },
   "Estonia (many icons)": {
     "symbolColorAngle": 0,
@@ -75,7 +75,7 @@
     "colorAngle": 0,
     "themeName": "estonia (4)",
     "colors": 4,
-    "columns": [3, 3, 3, 3],
+    "columns": [5, 5, 5, 5],
     "symbolProportion": [1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0],
     "colorProportion": [1, 1, 1, 1]
@@ -89,7 +89,7 @@
     "colorAngle": 45,
     "themeName": "monokai (7)",
     "colors": 7,
-    "columns": [2, 2, 2, 2, 2, 2, 2],
+    "columns": [3, 3, 3, 3, 3, 3, 3],
     "symbolProportion": [1, 1, 1, 1, 1, 1, 1],
     "iconLimits": [1, 1, 1, 1, 1, 1, 1],
     "colorProportion": [1, 1, 1, 1, 1, 1, 1]
@@ -111,10 +111,10 @@
     "colorAngle": 45,
     "themeName": "greens (5)",
     "colors": 7,
-    "columns": [5, 4, 3, 3, 2, 2, 1],
-    "symbolProportion": [7, 6, 5, 4, 3, 2, 1],
+    "columns": [5, 4, 3, 3, 3, 3, 1],
+    "symbolProportion": [7, 6, 5, 4, 3, 3, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
-    "colorProportion": [7, 6, 5, 4, 3, 2, 1]
+    "colorProportion": [7, 6, 5, 4, 3, 3, 1]
   },
   "Marine": {
     "symbolColorAngle": 5,
@@ -122,9 +122,9 @@
     "iconScales": [
       1,
       1,
-      0.90000000000000002,
+      0.90000000000000003,
       0.69999999999999996,
-      0.65000000000000002,
+      0.65000000000000003,
       0.59999999999999998,
       0.5
     ],
@@ -133,10 +133,10 @@
     "colorAngle": 5,
     "themeName": "marine (7)",
     "colors": 7,
-    "columns": [4, 3, 3, 2, 2, 2, 1],
-    "symbolProportion": [7, 6, 5, 4, 3, 2, 1],
+    "columns": [4, 3, 3, 3, 3, 3, 1],
+    "symbolProportion": [7, 6, 5, 4, 3, 3, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
-    "colorProportion": [7, 6, 5, 4, 3, 2, 1]
+    "colorProportion": [7, 6, 5, 4, 3, 3, 1]
   },
   "MKBHD™️: Icons": {
     "symbolColorAngle": 0,
@@ -147,7 +147,7 @@
     "colorAngle": 0,
     "themeName": "red and black (4)",
     "colors": 1,
-    "columns": [10],
+    "columns": [30],
     "symbolProportion": [1],
     "iconLimits": [1],
     "colorProportion": [1]
@@ -175,7 +175,7 @@
     "colorAngle": 90,
     "themeName": "solar (7)",
     "colors": 7,
-    "columns": [7, 2, 2, 2, 2, 2, 2],
+    "columns": [7, 3, 3, 3, 3, 3, 3],
     "symbolProportion": [5, 1, 1, 1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
     "colorProportion": [5, 1, 1, 1, 1, 1, 1]
@@ -208,7 +208,7 @@
     "colorAngle": 135,
     "themeName": "ice cream (4)",
     "colors": 4,
-    "columns": [3, 3, 3, 3],
+    "columns": [4, 4, 4, 4],
     "symbolProportion": [1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0],
     "colorProportion": [1, 1, 1, 1]
@@ -222,9 +222,9 @@
     "colorAngle": 69,
     "themeName": "breeze (5)",
     "colors": 3,
-    "columns": [3, 8, 3],
-    "symbolProportion": [1, 2, 1],
+    "columns": [5, 8, 5],
+    "symbolProportion": [1, 3, 1],
     "iconLimits": [0, 0, 0],
-    "colorProportion": [1, 2, 1]
+    "colorProportion": [1, 3, 1]
   }
 }
