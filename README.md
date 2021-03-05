@@ -88,15 +88,15 @@ Array of **scales of icons**. Scales per sections. For example [0.5, 1, 0.7].
 
 #### 📐 Section angle
 
-*is not curretnly used*
+Angle of colors/sections
 
 #### 📐 Symbol rotation
 
-Angle of colors/sections
+Angle of symbol columns
 
 #### 📐 Symbol color rotation
 
-Angle of symbol columns
+Angle of symbol coloring
 
 #### 🔒 Limited amount of symbols
 
