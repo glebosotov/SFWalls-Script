@@ -57,7 +57,7 @@ function applyArguments(config) {
     if (args.shortcutParameter == null)
         return;
     
-    const data = args.shortcutParameter;
+    const data = {...args.shortcutParameter};
 
     if (typeof(data.orientation) === 'string')
         switch (data.orientation.toLowerCase()) {
@@ -69,17 +69,25 @@ function applyArguments(config) {
         config.symbols.globalIconsSet = Math.max(0, data.limitSymbols);
 
     if (isNumber(data.symbolAngle))
-        config.symbols.angle = Math.max(0, data.symbolAngle);
+        config.symbols.angle = data.symbolAngle;
 
+    if (isNumber(data.columns))
+        data.columns = [data.columns];
     if (isNumberArray(data.columns))
         config.symbols.columns = data.columns;
 
+    if (isNumber(data.symbolProportion))
+        data.symbolProportion = [data.symbolProportion];
     if (isNumberArray(data.symbolProportion))
         config.symbols.ratios = data.symbolProportion;
 
+    if (isNumber(data.iconScales))
+        data.iconScales = [data.iconScales];
     if (isNumberArray(data.iconScales))
         config.symbols.scales = data.iconScales;
 
+    if (isNumber(data.iconLimits))
+        data.iconLimits = [data.iconLimits];
     if (isNumberArray(data.iconLimits))
         config.symbols.iconsSets = data.iconLimits;
 
@@ -87,14 +95,18 @@ function applyArguments(config) {
 
 
     if (isNumber(data.colorAngle))
-        config.colors.bgAngle = data.symbolColorAngle;
+        config.colors.bgAngle = data.colorAngle;
 
+    if (isNumber(data.colorProportion))
+        data.colorProportion = [data.colorProportion];
     if (isNumberArray(data.colorProportion))
         config.colors.bgRatios = data.colorProportion;
 
     if (isNumber(data.symbolColorAngle))
         config.colors.fgAngle = data.symbolColorAngle;
 
+    if (isNumber(data.symbolProportion))
+        data.symbolProportion = [data.symbolProportion];
     if (isNumberArray(data.symbolProportion))
         config.colors.fgRatios = data.symbolProportion;
 
@@ -369,4 +381,3 @@ function shifted(array, shift) {
 function selectRandom(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
-
