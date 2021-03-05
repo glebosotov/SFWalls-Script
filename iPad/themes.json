@@ -1,18 +1,4 @@
 {
-  "Two blue columns": {
-    "symbolColorAngle": 0,
-    "orientation": "Landscape",
-    "iconScales": [1, 1],
-    "symbolAngle": 0,
-    "limitSymbols": 0,
-    "colorAngle": 0,
-    "themeName": "blue",
-    "colors": 2,
-    "columns": [2, 2],
-    "symbolProportion": [1, 1],
-    "iconLimits": [0, 1],
-    "colorProportion": [1, 1]
-  },
   "Waves (tilt)": {
     "symbolColorAngle": 60,
     "orientation": "Landscape",
