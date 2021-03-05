@@ -1,0 +1,15 @@
+{ "Pine": {
+    "symbolColorAngle": 0,
+    "orientation": "Landscape",
+    "iconScales": [0.5],
+    "symbolAngle": 0,
+    "limitSymbols": 0,
+    "colorAngle": 0,
+    "themeName": "greens (5)",
+    "colors": 1,
+    "columns": [30],
+    "symbolProportion": [1],
+    "iconLimits": [0],
+    "colorProportion": [1]
+  }
+}
