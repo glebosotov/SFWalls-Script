@@ -150,7 +150,7 @@ Run shortcut with a **predefined preset**. It **should not have a name** only an
 ```json
 {
   "symbolColorAngle": 90,
-  "category": "Communication",
+  "category": "Communication.filled",
   "orientation": "Portrait",
   "iconScales": [1, 1, 1],
   "symbolAngle": 90,
