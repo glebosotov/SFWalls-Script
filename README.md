@@ -129,7 +129,7 @@ Specify the Symbol Categoies (full list below).
 – Leave a section blank to make it empty
 
 *An example:*
-**#applelogo Health.outlined ; Communication.filled ; Gaming.filled**
+`**#applelogo Health.outlined ; Communication.filled ; Gaming.filled**`
 
 Categories are kept in JSON at the start of the shortcut
 
@@ -165,7 +165,8 @@ Run shortcut with a **predefined preset**. It **should not have a name** only an
 }
 ```
 
-- from a **text input**
+- from a **text input**
+
 - from an **iCloud** text **file**
 
 
