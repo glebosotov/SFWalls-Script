@@ -192,26 +192,19 @@ function applyArguments(config) {
     if (data.iconSets instanceof Array)
         config.symbols.iconsSets = data.iconSets;
 
-    config.symbols.rowsOffsets = Array.from(config.symbols.ratios).fill(0);
-
+    if (isNumberArray(data.symbolProportion))
+        config.symbols.rowsOffsets = Array.from(config.symbols.ratios).fill(0);
 
     if (isNumber(data.colorAngle))
         config.colors.bgAngle = data.colorAngle;
+    if (isNumber(data.symbolColorAngle))
+        config.colors.fgAngle = data.symbolColorAngle;
 
     if (isNumber(data.colorProportion))
         data.colorProportion = [data.colorProportion];
     if (isNumberArray(data.colorProportion))
-        config.colors.bgRatios = data.colorProportion;
+        config.colors.fgRatios = config.colors.bgRatios = data.colorProportion;
 
-    if (isNumber(data.symbolColorAngle))
-        config.colors.fgAngle = data.symbolColorAngle;
-
-    if (isNumber(data.symbolProportion))
-        data.symbolProportion = [data.symbolProportion];
-    if (isNumberArray(data.symbolProportion))
-        config.colors.fgRatios = data.symbolProportion;
-
-    
     if (typeof(data.themeName) === 'string') {
         const theme = defaultThemes[data.themeName];
         if (!theme)
