@@ -11,7 +11,22 @@
     "columns": [3, 3, 3, 3, 3, 3],
     "symbolProportion": [1, 1, 1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0],
-    "colorProportion": [1, 1, 1, 1, 1, 1]
+    "colorProportion": [1, 1, 1, 1, 1, 1],
+    "category": "Nature.outlined"
+  },
+  "Original by AzazKamaz": {
+    "orientation": "Landscape",
+    "iconScales": [1, 0, 0.5, 0, 0.5, 0, 0.5, 0, 1],
+    "columns": [3, 0, 12, 0, 8, 0, 12, 0, 3],
+    "symbolProportion": [2.4, -0.4, 1, -0.1, 3.2, -0.1, 1, -0.4, 2.4],
+    "iconLimits": [0, 0, 3, 0, 3, 0, 3, 0, 0],
+    "limitSymbols": 0,
+    "symbolAngle": -5,
+    "symbolColorAngle": 5,
+    "colorAngle": 5,
+    "themeName": "original",
+    "colors": 9,
+    "colorProportion": [2, 1, 3, 1, 2]
   },
   "Pine": {
     "symbolColorAngle": 69,
@@ -25,7 +40,8 @@
     "columns": [5, 8, 5],
     "symbolProportion": [1, 3, 1],
     "iconLimits": [0, 0, 0],
-    "colorProportion": [1, 3, 1]
+    "colorProportion": [1, 3, 1],
+    "category": "Transport.outlined ; Devices.outlined ; TextFormatting.outlined"
   },
   "Vaporwave": {
     "symbolColorAngle": 5,
@@ -39,7 +55,8 @@
     "columns": [3, 3, 3, 3, 3, 3, 3],
     "symbolProportion": [1, 1, 1, 1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
-    "colorProportion": [1, 1, 1, 1, 1, 1, 1]
+    "colorProportion": [1, 1, 1, 1, 1, 1, 1],
+    "category": "All"
   },
   "Solar": {
     "symbolColorAngle": 0,
@@ -59,7 +76,8 @@
     "columns": [5, 3, 5, 3, 5],
     "symbolProportion": [3, 1, 3, 1, 3],
     "iconLimits": [0, 0, 0, 0, 0],
-    "colorProportion": [3, 1, 3, 1, 3]
+    "colorProportion": [3, 1, 3, 1, 3],
+    "category": "All"
   },
   "Estonia (many icons)": {
     "symbolColorAngle": 0,
@@ -78,7 +96,8 @@
     "columns": [5, 5, 5, 5],
     "symbolProportion": [1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0],
-    "colorProportion": [1, 1, 1, 1]
+    "colorProportion": [1, 1, 1, 1],
+    "category": "Nature.outlined ; Media.outlined ; Health.outlined ; Commerce.outlined"
   },
   "Monokai": {
     "symbolColorAngle": 45,
@@ -92,7 +111,8 @@
     "columns": [3, 3, 3, 3, 3, 3, 3],
     "symbolProportion": [1, 1, 1, 1, 1, 1, 1],
     "iconLimits": [1, 1, 1, 1, 1, 1, 1],
-    "colorProportion": [1, 1, 1, 1, 1, 1, 1]
+    "colorProportion": [1, 1, 1, 1, 1, 1, 1],
+    "category": "All"
   },
   "Greens": {
     "symbolColorAngle": 45,
@@ -114,7 +134,8 @@
     "columns": [5, 4, 3, 3, 3, 3, 1],
     "symbolProportion": [7, 6, 5, 4, 3, 3, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
-    "colorProportion": [7, 6, 5, 4, 3, 3, 1]
+    "colorProportion": [7, 6, 5, 4, 3, 3, 1],
+    "category": "All"
   },
   "Marine": {
     "symbolColorAngle": 5,
@@ -136,7 +157,8 @@
     "columns": [4, 3, 3, 3, 3, 3, 1],
     "symbolProportion": [7, 6, 5, 4, 3, 3, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
-    "colorProportion": [7, 6, 5, 4, 3, 3, 1]
+    "colorProportion": [7, 6, 5, 4, 3, 3, 1],
+    "category": "All"
   },
   "MKBHD™️: Icons": {
     "symbolColorAngle": 0,
@@ -150,7 +172,8 @@
     "columns": [30],
     "symbolProportion": [1],
     "iconLimits": [1],
-    "colorProportion": [1]
+    "colorProportion": [1],
+    "category": "Devices.outlined"
   },
   "Black and Yellow": {
     "symbolColorAngle": 90,
@@ -164,7 +187,8 @@
     "columns": [15],
     "symbolProportion": [1],
     "iconLimits": [0],
-    "colorProportion": [1]
+    "colorProportion": [1],
+    "category": "All"
   },
   "Solar Dark": {
     "symbolColorAngle": 90,
@@ -178,7 +202,8 @@
     "columns": [7, 3, 3, 3, 3, 3, 3],
     "symbolProportion": [5, 1, 1, 1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0, 0, 0, 0],
-    "colorProportion": [5, 1, 1, 1, 1, 1, 1]
+    "colorProportion": [5, 1, 1, 1, 1, 1, 1],
+    "category": "All"
   },
   "Bulbasaur": {
     "symbolColorAngle": 70,
@@ -197,7 +222,8 @@
     "columns": [10, 4, 4, 4],
     "symbolProportion": [3, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0],
-    "colorProportion": [3, 1, 1, 1]
+    "colorProportion": [3, 1, 1, 1],
+    "category": "All"
   },
   "Tiramisu": {
     "symbolColorAngle": 135,
@@ -211,7 +237,8 @@
     "columns": [4, 4, 4, 4],
     "symbolProportion": [1, 1, 1, 1],
     "iconLimits": [0, 0, 0, 0],
-    "colorProportion": [1, 1, 1, 1]
+    "colorProportion": [1, 1, 1, 1],
+    "category": "All"
   },
   "Trio 69 degrees": {
     "symbolColorAngle": 69,
@@ -225,6 +252,7 @@
     "columns": [5, 8, 5],
     "symbolProportion": [1, 3, 1],
     "iconLimits": [0, 0, 0],
-    "colorProportion": [1, 3, 1]
+    "colorProportion": [1, 3, 1],
+    "category": "All"
   }
 }

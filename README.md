@@ -10,6 +10,16 @@ Created by [@glebosotov](https://github.com/glebosotov) and [@AzazKamaz](https:/
 
 The easiest way to contact us is Telegram 
 
+
+
+### ✨ New in 2.0
+
+- **categories** of symbols or individual user-defined symbols
+- **import** a preset using **text input** or **iCloud**
+- **export** a preset to **clipboard**, iCloud or **save in the shortcut** itself
+- link to help and documentation inside the shortcut
+- built-in update system using [this](https://routinehub.co/shortcut/2672/)
+
 ### Features:
 
 - Create randomized custom wallpapers for your iPhone, iPad and Desktop
@@ -35,6 +45,7 @@ The easiest way to contact us is Telegram
 - In your iCloud/Shortcuts there should be
   - `colorsmac.json` – color themes
   - `mac.json` – presets
+  - `symbols.json`  - symbol categories
 - The default behaviour is: for each preset in the `mac.json` there will be created a wallpaper with every color theme from `colorsmac.json`
 - The wallpapers will be saved to  `iCloud/Shortcuts/SFWalls`
 
@@ -102,11 +113,74 @@ Angle of symbol coloring
 
 **Global limit** on set of symbols (for example the whole wallpaper could be created using just 1 random symbol). 0 means unlimited
 
+#### 🈲 Global symbol category
+
+Specify the Global theme for symbols
+
+Categories are kept in JSON at the start of the shortcut
+
+#### 🈲 Symbol category per section
+
+Specify the Symbol Categoies (full list below). 
+– Use `#` to specify the name of exact symbol
+– Use *space* to separate names 
+– Use `;` to separate colors/sections
+– Use `.outlined` or `.filled` after category name
+– Leave a section blank to make it empty
+
+*An example:*
+**#applelogo Health.outlined ; Communication.filled ; Gaming.filled**
+
+Categories are kept in JSON at the start of the shortcut
+
+#### ⤴️ Export a preset
+
+Choose a method to **save currently edited preset**
+
+- Save your preset to a user-defined location and use it later within the 🎨 **Presets** action.
+  - default location is `Shortcuts/SFWalls_presets.txt`
+  - for some reason, using nested folders of `json` file format breaks everything, so keep it *simple*
+- Save it to clipboard (without a name, perfect for ⬇️ **Import a preset** action)
+- Save it as a separate text file (without a name, perfect for ⬇️ **Import a preset** action)
+
+#### ⬇️ Import a preset
+
+Run shortcut with a **predefined preset**. It **should not have a name** only an array with parameters like this
+
+```json
+{
+  "symbolColorAngle": 90,
+  "category": "Communication",
+  "orientation": "Portrait",
+  "iconScales": [1, 1, 1],
+  "symbolAngle": 90,
+  "limitSymbols": 0,
+  "colorAngle": 90,
+  "themeName": "black and white (5)",
+  "colors": 3,
+  "columns": [4, 6, 3],
+  "symbolProportion": [550, 1000, 250],
+  "iconLimits": [0, 0, 0],
+  "colorProportion": [550, 1000, 250]
+}
+```
+
+- from a **text input**
+- from an **iCloud** text **file**
+
 
 
 ### Auto version:
 
+The only **setting**: there is a number block at the start. Set it to `1` to randomize color theme every time, set to `0` to load color theme from preset.  
+
 This version **randomly chooses** from presets (can be changed, saved as JSON text at the start), then sets the wallpaper to both Home and Lock Screen. No user action required, can be used with **Automations** or by **double-tapping the back** of your iPhone (Settings -> Accessibility -> Touch -> Back Tap -> Double Tap -> SFWalls auto).
+
+
+
+### Disable auto-update system:
+
+**Delete repeat 1 time block** at the start of the shortcut (with all actions inside)
 
 
 
@@ -152,7 +226,20 @@ One has one array for both foreground (symbol coloring) and background (colors/s
 
 
 
+### How `symbols.json` works:
 
+There is an "*All*" dictionary. Do not touch it, it contains all symbols. 
+
+Others have the following structure:
+
+```json
+"name":{
+  "filled":["symbol1","symbol2"],
+  "outlined":["symbol1","symbol2"]
+}
+```
+
+Where *filled* contains the symbols that will be used with category (in config) `name.filled` and *notFilled* contains the symbols that will be used with category `name.outlined`
 
 ## Troubleshooting:
 
