@@ -240,7 +240,7 @@ Others have the following structure:
 }
 ```
 
-Where *filled* contains the symbols that will be used with category (in config) `name.filled` and *notFilled* contains the symbols that will be used with category `name.outlined`
+Where *filled* contains the symbols that will be used with category (in config) `name.filled` and  *outlined* contains the symbols that will be used with category `name.outlined`
 
 ## Troubleshooting:
 
