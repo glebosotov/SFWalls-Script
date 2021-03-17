@@ -186,8 +186,8 @@ function applyArguments(config) {
     if (isNumberArray(data.iconLimits))
         config.symbols.iconsLimits = data.iconLimits;
 
-    if (data.iconSets instanceof String)
-        data.iconSets = data.iconSets.split(';').map(s => s.split(' '));
+    if (typeof data.iconSets === 'string' || data.iconSets instanceof String)
+        data.iconSets = data.iconSets.split(';').map(set => set.split(' ').filter(s => s != ''));
     if (data.iconSets instanceof Array)
         config.symbols.iconsSets = data.iconSets;
 
