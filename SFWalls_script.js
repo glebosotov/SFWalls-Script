@@ -147,6 +147,7 @@ function applyArguments(config) {
         return;
     
     const data = {...args.shortcutParameter};
+    data.iconSets = data.category;
 
     if (isNumber(data.width) && isNumber(data.height))
         config.size = {
@@ -187,7 +188,7 @@ function applyArguments(config) {
         config.symbols.iconsLimits = data.iconLimits;
 
     if (typeof data.iconSets === 'string' || data.iconSets instanceof String)
-        data.iconSets = data.iconSets.split(';').map(set => set.split(' ').filter(s => s != ''));
+        data.iconSets = data.iconSets.split(';').map(set => set.split(' ').map(s => s.trim()).filter(s => s != ''));
     if (data.iconSets instanceof Array)
         config.symbols.iconsSets = data.iconSets;
 
@@ -268,9 +269,11 @@ function checkConfig(config) {
         throw Error('Number of symbols icons sets and ratios should be the same');
     if (config.symbols.rowsOffsets.length != config.symbols.ratios.length)
         throw Error('Number of symbols rows offsets and ratios should be the same');
-    for (let set of config.symbols.iconsSets)
-        if (set.some(sym => !allSymbols.has(sym)))
-            throw Error('All selected symbols should exist');
+    for (let set of config.symbols.iconsSets) {
+        const failed = set.filter(sym => !allSymbols.has(sym));
+        if (failed.length)
+            throw Error('All selected symbols should exist: ' + failed[0]);
+    }
 
     if (config.colors.bgColors.length == 0)
         throw Error('At least one background color should exist');
