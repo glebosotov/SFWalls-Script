@@ -10,16 +10,6 @@ Created by [@glebosotov](https://github.com/glebosotov) and [@AzazKamaz](https:/
 
 The easiest way to contact us is Telegram 
 
-
-
-### ✨ New in 2.0
-
-- **categories** of symbols or individual user-defined symbols
-- **import** a preset using **text input** or **iCloud**
-- **export** a preset to **clipboard**, iCloud or **save in the shortcut** itself
-- link to help and documentation inside the shortcut
-- built-in update system using [this](https://routinehub.co/shortcut/2672/)
-
 ### Features:
 
 - Create randomized custom wallpapers for your iPhone, iPad and Desktop
@@ -35,6 +25,23 @@ The easiest way to contact us is Telegram
 - [Custom shortcut with advanced settings](https://routinehub.co/shortcut/8607/)
 - [One-click shortcut for automation](https://routinehub.co/shortcut/8608/)
 - [Shortcut for generating Desktop wallpapers](https://routinehub.co/shortcut/8609/)
+
+
+
+### ✨ New in 2.0
+
+- **categories** of symbols or individual user-defined symbols
+- **import** a preset using **text input** or **iCloud**
+- **export** a preset to **clipboard**, iCloud or **save in the shortcut** itself
+- link to help and documentation inside the shortcut
+- built-in update system using [this](https://routinehub.co/shortcut/2672/)
+
+### ✨ New in 2.1
+
+- **UI improvements** when setting wallpaper
+- New menu item: 🎲 Random preset with random color
+- New menu item: 🎨 Make **custom gradient color theme**
+- Overall **refactoring** with new **comments**, lots of polish and **optimisations**
 
 
 
@@ -61,11 +68,15 @@ Choose from a **predefined set of themes**, icons are differene every time (you 
 
 **Randomly choose** one of the predefined themes
 
+#### 🎲 Random Preset with random color
+
+**Randomly choose** one of the predefined themes and **randomly choose colors** for it
+
 #### ⚙️ Customise presets
 
 Choose a preset and **change some values**, then set the wallpaper. Edits are **not** permanent.
 
-#### ✅ Set wallpaper
+#### ✅ Preview and Set wallpaper
 
 **Preview** current preset and **set** wallpaper or continue messing with the settings.
 
@@ -76,6 +87,12 @@ Choose a preset and **change some values**, then set the wallpaper. Edits are **
 #### 🎨 Color theme
 
 Choose from a predifined **set of color themes**. Can be edited, saved as a JSON text at the beginning of the shortcut.
+
+#### 🎨 Make custom gradient color theme
+
+Either **enter two hex values** or **choose from a set** of predefined colors from JSON at the start of the script.
+
+Then, a second inline script will generate a set of colors for the gradient (seamlessly).
 
 #### 🔢 Columns per sections
 
