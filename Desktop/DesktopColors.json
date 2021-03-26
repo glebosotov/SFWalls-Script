@@ -1,0 +1,44 @@
+{
+  "0": {
+    "shuffle": false,
+    "bgShift": 0,
+    "fgShift": 3,
+    "colors": [
+      "#132035",
+      "#1d2a3f",
+      "#273449",
+      "#313e53",
+      "#3b485d",
+      "#455267",
+      "#4f5c71"
+    ]
+  },
+  "7": {
+    "shuffle": false,
+    "bgShift": 0,
+    "fgShift": 3,
+    "colors": [
+      "#30a26e",
+      "#3aac78",
+      "#44b682",
+      "#4ec08c",
+      "#58ca96",
+      "#62d4a0",
+      "#6cdeaa"
+    ]
+  },
+  "21": {
+    "shuffle": false,
+    "bgShift": 0,
+    "fgShift": 3,
+    "colors": [
+      "#b94869",
+      "#c35273",
+      "#cd5c7d",
+      "#d76687",
+      "#e17091",
+      "#eb7a9b",
+      "#f584a5"
+    ]
+  }
+}

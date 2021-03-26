@@ -43,18 +43,22 @@ The easiest way to contact us is Telegram
 - New menu item: 🎨 Make **custom gradient color theme**
 - Overall **refactoring** with new **comments**, lots of polish and **optimisations**
 
+#### ✨ New in 2.2
+
+- New file-keeping system with [this](https://routinehub.co/shortcut/8794/) to migrate
+
 
 
 ## Guide to all settings/parameters:
 
 ### Desktop version:
 
-- In your iCloud/Shortcuts there should be
-  - `colorsmac.json` – color themes
-  - `mac.json` – presets
-  - `symbols.json`  - symbol categories
-- The default behaviour is: for each preset in the `mac.json` there will be created a wallpaper with every color theme from `colorsmac.json`
-- The wallpapers will be saved to  `iCloud/Shortcuts/SFWalls`
+- Copy the  `Desktop` folder in the repo to the `SFWalls` folder in Shortcuts directory
+  - `DesktopColors.json` – color themes
+  - `DesktopPresets.json` – presets
+  - `DesktopSymbols.json`  - symbol categories
+- The default behaviour is: for each preset in the `DesktopPresets.json` there will be created a wallpaper with every color theme from `DesktopColors.json`
+- The wallpapers will be saved to  `iCloud/Shortcuts/SFWalls/Results`
 
 
 
@@ -155,8 +159,7 @@ Categories are kept in JSON at the start of the shortcut
 Choose a method to **save currently edited preset**
 
 - Save your preset to a user-defined location and use it later within the 🎨 **Presets** action.
-  - default location is `Shortcuts/SFWalls_presets.txt`
-  - for some reason, using nested folders of `json` file format breaks everything, so keep it *simple*
+  - default location is `Shortcuts/SFWalls/Custom/CustomPresets.json`
 - Save it to clipboard (without a name, perfect for ⬇️ **Import a preset** action)
 - Save it as a separate text file (without a name, perfect for ⬇️ **Import a preset** action)
 

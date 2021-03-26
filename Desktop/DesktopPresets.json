@@ -1,0 +1,17 @@
+{
+  "Mac": {
+    "symbolColorAngle": 90,
+    "orientation": "Landscape",
+    "iconScales": [1, 1, 1, 1, 1, 1, 1],
+    "symbolAngle": 90,
+    "limitSymbols": 0,
+    "colorAngle": 0,
+    "themeName": "greens (5)",
+    "colors": 7,
+    "columns": [0, 3, 0, 0, 0, 3, 0],
+    "symbolProportion": [0.5, 2, 0, 7, 0, 2, 0.5],
+    "iconLimits": [0, 0, 0, 0, 0, 0, 0],
+    "colorProportion": [1, 1, 1, 1, 1, 1, 1],
+    "category": "All"
+  }
+}
