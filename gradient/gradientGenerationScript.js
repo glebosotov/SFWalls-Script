@@ -63,8 +63,8 @@ resultingDict = {
   "Custom gradient": {
     colors: colorsArray,
     shuffle: false,
-    bgShift: (config["colors"] / 2) | 0,
-    fgShift: 0,
+    fgShift: (config["colors"] / 2) | 0,
+    bgShift: 0,
   },
 };
 // log(resultingDict);
