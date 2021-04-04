@@ -1,0 +1,32 @@
+{
+  "1": {
+    "gradientColor1": "#1d2f6f",
+    "gradientColor2": "#e63946",
+    "colors": 20
+  },
+  "2": {
+    "gradientColor1": "#2b2d42",
+    "gradientColor2": "#8d99ae",
+    "colors": 20
+  },
+  "3": {
+    "gradientColor1": "#f72585",
+    "gradientColor2": "#4cc9f0",
+    "colors": 20
+  },
+  "4": {
+    "gradientColor1": "#0d2b45",
+    "gradientColor2": "#ffecd6",
+    "colors": 20
+  },
+  "5": {
+    "gradientColor1": "#46878f",
+    "gradientColor2": "#e2f3e4",
+    "colors": 20
+  },
+  "6": {
+    "gradientColor1": "#1d2f6f",
+    "gradientColor2": "#e63946",
+    "colors": 20
+  }
+}

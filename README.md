@@ -25,6 +25,7 @@ The easiest way to contact us is Telegram
 - [Custom shortcut with advanced settings](https://routinehub.co/shortcut/8607/)
 - [One-click shortcut for automation](https://routinehub.co/shortcut/8608/)
 - [Shortcut for generating Desktop wallpapers](https://routinehub.co/shortcut/8609/)
+- [Desktop gradient wallpapers](https://routinehub.co/shortcut/8865/) (requires shortcut above)
 
 
 
@@ -43,7 +44,7 @@ The easiest way to contact us is Telegram
 - New menu item: 🎨 Make **custom gradient color theme**
 - Overall **refactoring** with new **comments**, lots of polish and **optimisations**
 
-#### ✨ New in 2.2
+### ✨ New in 2.2
 
 - New file-keeping system with [this](https://routinehub.co/shortcut/8794/) to migrate
 
@@ -57,6 +58,7 @@ The easiest way to contact us is Telegram
   - `DesktopColors.json` – color themes
   - `DesktopPresets.json` – presets
   - `DesktopSymbols.json`  - symbol categories
+  - `DesktopGradient.json` - gradient colors for Desktop Gradient shortcut
 - The default behaviour is: for each preset in the `DesktopPresets.json` there will be created a wallpaper with every color theme from `DesktopColors.json`
 - The wallpapers will be saved to  `iCloud/Shortcuts/SFWalls/Results`
 
