@@ -48,6 +48,10 @@ The easiest way to contact us is Telegram
 
 - New file-keeping system with [this](https://routinehub.co/shortcut/8794/) to migrate
 
+### ✨ New in 2.3
+
+- Support for iOS 15 and SFSymbols version 3 (793 new symbols)
+
 
 
 ## Guide to all settings/parameters:
